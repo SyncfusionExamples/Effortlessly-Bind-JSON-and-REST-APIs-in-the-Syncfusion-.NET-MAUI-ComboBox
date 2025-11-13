@@ -1,2 +1,7 @@
-# How-to-bind-the-.NET-MAUI-ComboBox-to-various-data-sources-including-arrays-JSON-feeds-and-REST-APIs
-This demo shows how to bind the .NET MAUI ComboBox to various data sources, including arrays, JSON feeds, and REST APIs.
+Binding the Syncfusion .NET MAUI ComboBox to JSON and REST APIs data sources
+
+In this blog, we’ll focus on practical ways to bind data to the ComboBox.You’ll learn how to bind SfComboBox to:
+
+•	JSON data
+•	REST APIs 
+
