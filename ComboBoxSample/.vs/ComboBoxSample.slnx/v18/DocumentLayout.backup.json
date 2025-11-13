@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\KB\\ComboBoxSample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97C3F4F8-233E-3F32-6166-C09D8DCD48A5}|ComboBoxSample\\ComboBoxSample.csproj|d:\\kb\\comboboxsample\\comboboxsample\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97C3F4F8-233E-3F32-6166-C09D8DCD48A5}|ComboBoxSample\\ComboBoxSample.csproj|solutionrelative:comboboxsample\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97C3F4F8-233E-3F32-6166-C09D8DCD48A5}|ComboBoxSample\\ComboBoxSample.csproj|d:\\kb\\comboboxsample\\comboboxsample\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97C3F4F8-233E-3F32-6166-C09D8DCD48A5}|ComboBoxSample\\ComboBoxSample.csproj|solutionrelative:comboboxsample\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97C3F4F8-233E-3F32-6166-C09D8DCD48A5}|ComboBoxSample\\ComboBoxSample.csproj|d:\\kb\\comboboxsample\\comboboxsample\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{97C3F4F8-233E-3F32-6166-C09D8DCD48A5}|ComboBoxSample\\ComboBoxSample.csproj|solutionrelative:comboboxsample\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97C3F4F8-233E-3F32-6166-C09D8DCD48A5}|ComboBoxSample\\ComboBoxSample.csproj|d:\\kb\\comboboxsample\\comboboxsample\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{97C3F4F8-233E-3F32-6166-C09D8DCD48A5}|ComboBoxSample\\ComboBoxSample.csproj|solutionrelative:comboboxsample\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97C3F4F8-233E-3F32-6166-C09D8DCD48A5}|ComboBoxSample\\ComboBoxSample.csproj|d:\\kb\\comboboxsample\\comboboxsample\\usingrestapis.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97C3F4F8-233E-3F32-6166-C09D8DCD48A5}|ComboBoxSample\\ComboBoxSample.csproj|solutionrelative:comboboxsample\\usingrestapis.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97C3F4F8-233E-3F32-6166-C09D8DCD48A5}|ComboBoxSample\\ComboBoxSample.csproj|d:\\kb\\comboboxsample\\comboboxsample\\usingrestapis.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{97C3F4F8-233E-3F32-6166-C09D8DCD48A5}|ComboBoxSample\\ComboBoxSample.csproj|solutionrelative:comboboxsample\\usingrestapis.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97C3F4F8-233E-3F32-6166-C09D8DCD48A5}|ComboBoxSample\\ComboBoxSample.csproj|d:\\kb\\comboboxsample\\comboboxsample\\usingjson.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{97C3F4F8-233E-3F32-6166-C09D8DCD48A5}|ComboBoxSample\\ComboBoxSample.csproj|solutionrelative:comboboxsample\\usingjson.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97C3F4F8-233E-3F32-6166-C09D8DCD48A5}|ComboBoxSample\\ComboBoxSample.csproj|d:\\kb\\comboboxsample\\comboboxsample\\usingjson.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97C3F4F8-233E-3F32-6166-C09D8DCD48A5}|ComboBoxSample\\ComboBoxSample.csproj|solutionrelative:comboboxsample\\usingjson.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97C3F4F8-233E-3F32-6166-C09D8DCD48A5}|ComboBoxSample\\ComboBoxSample.csproj|d:\\kb\\comboboxsample\\comboboxsample\\comboboxsample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{97C3F4F8-233E-3F32-6166-C09D8DCD48A5}|ComboBoxSample\\ComboBoxSample.csproj|solutionrelative:comboboxsample\\comboboxsample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\KB\\ComboBoxSample\\ComboBoxSample\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "ComboBoxSample\\MauiProgram.cs",
+              "ToolTip": "D:\\KB\\ComboBoxSample\\ComboBoxSample\\MauiProgram.cs",
+              "RelativeToolTip": "ComboBoxSample\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T09:40:12.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\KB\\ComboBoxSample\\ComboBoxSample\\AppShell.xaml",
+              "RelativeDocumentMoniker": "ComboBoxSample\\AppShell.xaml",
+              "ToolTip": "D:\\KB\\ComboBoxSample\\ComboBoxSample\\AppShell.xaml",
+              "RelativeToolTip": "ComboBoxSample\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-13T09:39:58.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsingRESTAPIs.xaml.cs",
+              "DocumentMoniker": "D:\\KB\\ComboBoxSample\\ComboBoxSample\\UsingRESTAPIs.xaml.cs",
+              "RelativeDocumentMoniker": "ComboBoxSample\\UsingRESTAPIs.xaml.cs",
+              "ToolTip": "D:\\KB\\ComboBoxSample\\ComboBoxSample\\UsingRESTAPIs.xaml.cs",
+              "RelativeToolTip": "ComboBoxSample\\UsingRESTAPIs.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T09:39:53.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsingRESTAPIs.xaml",
+              "DocumentMoniker": "D:\\KB\\ComboBoxSample\\ComboBoxSample\\UsingRESTAPIs.xaml",
+              "RelativeDocumentMoniker": "ComboBoxSample\\UsingRESTAPIs.xaml",
+              "ToolTip": "D:\\KB\\ComboBoxSample\\ComboBoxSample\\UsingRESTAPIs.xaml",
+              "RelativeToolTip": "ComboBoxSample\\UsingRESTAPIs.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-13T09:39:51.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsingJSON.xaml",
+              "DocumentMoniker": "D:\\KB\\ComboBoxSample\\ComboBoxSample\\UsingJSON.xaml",
+              "RelativeDocumentMoniker": "ComboBoxSample\\UsingJSON.xaml",
+              "ToolTip": "D:\\KB\\ComboBoxSample\\ComboBoxSample\\UsingJSON.xaml",
+              "RelativeToolTip": "ComboBoxSample\\UsingJSON.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-13T09:39:29.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\KB\\ComboBoxSample\\ComboBoxSample\\MainPage.xaml",
+              "RelativeDocumentMoniker": "ComboBoxSample\\MainPage.xaml",
+              "ToolTip": "D:\\KB\\ComboBoxSample\\ComboBoxSample\\MainPage.xaml",
+              "RelativeToolTip": "ComboBoxSample\\MainPage.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-13T09:38:18.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\KB\\ComboBoxSample\\ComboBoxSample\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "ComboBoxSample\\MainPage.xaml.cs",
+              "ToolTip": "D:\\KB\\ComboBoxSample\\ComboBoxSample\\MainPage.xaml.cs",
+              "RelativeToolTip": "ComboBoxSample\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T09:39:01.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsingJSON.xaml.cs",
+              "DocumentMoniker": "D:\\KB\\ComboBoxSample\\ComboBoxSample\\UsingJSON.xaml.cs",
+              "RelativeDocumentMoniker": "ComboBoxSample\\UsingJSON.xaml.cs",
+              "ToolTip": "D:\\KB\\ComboBoxSample\\ComboBoxSample\\UsingJSON.xaml.cs",
+              "RelativeToolTip": "ComboBoxSample\\UsingJSON.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T09:39:33.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ComboBoxSample",
+              "DocumentMoniker": "D:\\KB\\ComboBoxSample\\ComboBoxSample\\ComboBoxSample.csproj",
+              "RelativeDocumentMoniker": "ComboBoxSample\\ComboBoxSample.csproj",
+              "ToolTip": "D:\\KB\\ComboBoxSample\\ComboBoxSample\\ComboBoxSample.csproj",
+              "RelativeToolTip": "ComboBoxSample\\ComboBoxSample.csproj",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-13T09:38:45.002Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
