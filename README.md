@@ -1,6 +1,7 @@
 Binding the Syncfusion .NET MAUI ComboBox to JSON Files and REST APIs
 
 In this article, you’ll learn how to populate the Syncfusion .NET MAUI SfComboBox from two common real-world data sources: local JSON files and REST APIs. We’ll cover clean MVVM-friendly patterns, best practices for JSON deserialization, configuring ItemsSource and display/value members, and implementing asynchronous loading for a smooth user experience. What you’ll learn:
+
 •	Bind SfComboBox to a local JSON file
 •	Bind SfComboBox to a REST API endpoint
 •	Recommended patterns and best practices for MVVM and async data flows
@@ -30,17 +31,17 @@ Create the JSON file named as countries.json and paste this sample content:
 Xaml
 
 <ContentPage.Content>
-	<VerticalStackLayout Padding="16"
-						 Spacing="12">
-		<Button Text="Load JSON"
-				Clicked="OnLoadClicked" />
-		<inputs:SfComboBox WidthRequest="300"
-						   ItemsSource="{Binding Countries}" 
-                           DisplayMemberPath="Name"
-						   TextMemberPath="Name"
-						   SelectedItem="{Binding Selected, Mode=TwoWay}" />
-		<Label Text="{Binding Selected.Name, StringFormat='Selected country: {0}'}" />
-	</VerticalStackLayout>
+<VerticalStackLayout Padding="16"
+                        Spacing="12">
+    <Button Text="Load JSON"
+            Clicked="OnLoadClicked" />
+    <inputs:SfComboBox WidthRequest="300"
+                        ItemsSource="{Binding Countries}" 
+                        DisplayMemberPath="Name"
+                        TextMemberPath="Name"
+                        SelectedItem="{Binding Selected, Mode=TwoWay}" />
+    <Label Text="{Binding Selected.Name, StringFormat='Selected country: {0}'}" />
+</VerticalStackLayout>
 </ContentPage.Content>
 
 
@@ -79,6 +80,7 @@ public class JsonViewModel
 
 
 Bind SfComboBox to a REST API
+
 A REST (Representational State Transfer) API is an architectural style for building web services that treat data as resources accessible via URLs and manipulated with standard HTTP methods (GET, POST, PUT, PATCH, DELETE). It is stateless, cacheable, and uses a uniform interface, commonly exchanging data in JSON.
 
 C#
@@ -121,8 +123,8 @@ Xaml
 					   ItemsSource="{Binding Users}"
 					   DisplayMemberPath="Name"
 					   TextMemberPath="Name" />
-
 </VerticalStackLayout>
+
 
 
 
@@ -133,8 +135,3 @@ Conclusion
 Thanks for reading! In this blog, we’ve seen how to bind the Syncfusion .NET MAUI SfComboBox to both local JSON data and live REST API data using clean, asynchronous patterns. Check out our Release Notes and What’s New pages to see the other updates in this release and leave your feedback in the comments section below. 
 For current Syncfusion customers, the newest version of Essential Studio is available from the license and downloads page. If you are not yet a customer, you can try our 30-day free trial to check out these new features. 
 For questions, you can contact us through our support forums, feedback portal, or support portal. We are always happy to assist you!
-
-
-
-
-
