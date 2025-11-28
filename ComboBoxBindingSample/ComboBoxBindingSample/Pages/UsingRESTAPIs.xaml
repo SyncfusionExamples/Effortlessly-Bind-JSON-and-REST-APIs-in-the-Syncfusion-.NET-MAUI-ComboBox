@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 			 xmlns:local="clr-namespace:ComboBoxBindingSample.ViewModel"
 			 xmlns:inputs="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs"
-			 x:Class="ComboBoxBindingSample.UsingRESTAPIs">
+			 x:Class="ComboBoxBindingSample.UsingRESTAPIs"
+			 Padding="{OnPlatform iOS='0,44,0,16', Android='16', WinUI='24'}">
 
 	<ContentPage.BindingContext>
 		<local:RestViewModel />
@@ -11,37 +12,56 @@
 
 	<ContentPage.Content>
 
-		<Grid Padding="50" RowDefinitions="60,60" ColumnDefinitions="*,*">
-			<Button Text="Load from API"
-					WidthRequest="320"
-					HeightRequest="45"
-					Grid.Row="0"
-					Grid.Column="0"
-					Clicked="OnLoadClicked" />
+		<ScrollView>
+			<Grid Padding="0"
+				  RowSpacing="12"
+				  ColumnSpacing="12"
+				  RowDefinitions="Auto,Auto"
+				  ColumnDefinitions="*,*">
 
-			<Entry x:Name="NameEntry"
-			Grid.Row="1"
-			Grid.Column="1"
-				   HeightRequest="45"
-				   WidthRequest="320"
-				   Placeholder="Enter new user name to POST" />
+				<Button Text="Load from API"
+						Grid.Row="0"
+						Grid.Column="0"
+						HeightRequest="{OnPlatform Android=56, iOS=52, WinUI=48}"
+						MinimumHeightRequest="48"
+						MaximumWidthRequest="320"
+						HorizontalOptions="Fill"
+						Clicked="OnLoadClicked" />
 
-			<Button Text="Create user (POST)"
-					WidthRequest="320"
-					HeightRequest="45"
-					Grid.Row="0"
-					Grid.Column="1"
-					Clicked="OnCreateClicked" />
+				<Button Text="Create user (POST)"
+						Grid.Row="0"
+						Grid.Column="1"
+						HeightRequest="{OnPlatform Android=56, iOS=52, WinUI=48}"
+						MinimumHeightRequest="48"
+						HorizontalOptions="Fill"
+						MaximumWidthRequest="320"
+						Clicked="OnCreateClicked" />
 
-			<inputs:SfComboBox WidthRequest="320"
-			HeightRequest="45"
-							   Grid.Row="1"
-							   Grid.Column="0"
-							   ItemsSource="{Binding Users}"
-							   DisplayMemberPath="Name"
-							   TextMemberPath="Name" />
+				<inputs:SfComboBox Grid.Row="1"
+								   Grid.Column="0"
+								   HeightRequest="{OnPlatform Android=56, iOS=52, WinUI=48}"
+								   MinimumHeightRequest="48"
+								   HorizontalOptions="Fill"
+								   MaximumWidthRequest="320"
+								   ItemsSource="{Binding Users}"
+								   DisplayMemberPath="Name"
+								   TextMemberPath="Name"
+								   Placeholder="Select a user"
+								   Margin="0,0,0,0" />
 
-		</Grid>
+				<Entry x:Name="NameEntry"
+					   Grid.Row="1"
+					   Grid.Column="1"
+					   HeightRequest="{OnPlatform Android=56, iOS=52, WinUI=48}"
+					   MinimumHeightRequest="48"
+					   HorizontalOptions="Fill"
+					   MaximumWidthRequest="320"
+					   Keyboard="Text"
+					   ReturnType="Done"
+					   ClearButtonVisibility="WhileEditing"
+					   Placeholder="Enter new user name to POST" />
+			</Grid>
+		</ScrollView>
 
 	</ContentPage.Content>
 

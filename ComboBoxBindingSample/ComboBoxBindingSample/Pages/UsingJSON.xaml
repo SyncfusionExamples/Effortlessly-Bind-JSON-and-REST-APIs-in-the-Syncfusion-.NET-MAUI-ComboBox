@@ -17,7 +17,7 @@
 			<Button Text="Load JSON"
 					WidthRequest="320"
 					Clicked="OnLoadClicked" />
-			<inputs:SfComboBox WidthRequest="300"
+			<inputs:SfComboBox WidthRequest="320"
 							   ItemsSource="{Binding Countries}"
 							   DisplayMemberPath="Name"
 							   TextMemberPath="Name"
