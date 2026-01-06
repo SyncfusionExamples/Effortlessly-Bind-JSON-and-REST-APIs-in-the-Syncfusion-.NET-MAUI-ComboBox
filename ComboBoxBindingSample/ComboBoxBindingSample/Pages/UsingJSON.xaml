@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:local="clr-namespace:ComboBoxBindingSample.ViewModel"
+			 xmlns:inputs="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs"
+			 x:Class="ComboBoxBindingSample.UsingJSON">
+
+	<ContentPage.BindingContext>
+		<local:JsonViewModel />
+	</ContentPage.BindingContext>
+
+	<ContentPage.Content>
+
+
+		<VerticalStackLayout Padding="50"
+							 Spacing="12">
+			<Button Text="Load JSON"
+					WidthRequest="320"
+					Clicked="OnLoadClicked" />
+			<inputs:SfComboBox WidthRequest="320"
+							   ItemsSource="{Binding Countries}"
+							   DisplayMemberPath="Name"
+							   TextMemberPath="Name"
+							   SelectedItem="{Binding Selected, Mode=TwoWay}" />
+			<Label Text="{Binding Selected.Name, StringFormat='Selected country: {0}'}" />
+		</VerticalStackLayout>
+
+	</ContentPage.Content>
+
+</ContentPage>
