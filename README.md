@@ -180,10 +180,6 @@ The ComboBox is ready for selection and type ahead; it refreshes automatically w
 
 ![ComboBoxwithRestAPIs](https://github.com/user-attachments/assets/375c8d9c-f3b4-4240-86e5-101c9161b2b3)
 
-## GitHub reference
-For more details, refer to the complete project on the GitHub demo.
 
-## Conclusion 
-Thanks for reading! In this blog, we’ve seen how to bind the Syncfusion .NET MAUI ComboBox to both JSON data and live REST API data using clean, asynchronous patterns. Check out our Release Notes and What’s New pages to see the other updates in this release and leave your feedback in the comments section below. 
-For current Syncfusion customers, the newest version of Essential Studio is available from the license and downloads page. If you are not yet a customer, you can try our 30-day free trial to check out these new features. 
-For questions, you can contact us through our support forums, feedback portal, or support portal. We are always happy to assist you!
+## Troubleshooting
+If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.Path too long exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
