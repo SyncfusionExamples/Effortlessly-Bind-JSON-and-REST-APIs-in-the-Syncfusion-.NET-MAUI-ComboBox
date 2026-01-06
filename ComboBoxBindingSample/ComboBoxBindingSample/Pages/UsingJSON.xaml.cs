@@ -17,11 +17,11 @@ namespace ComboBoxBindingSample
 	/// </summary>
 	public partial class UsingJSON : ContentPage
     {
-        public UsingJSON()
-        {
-			/// <summary>
-			/// Initializes a new instance of the <see cref="UsingJSON"/> class.
-			/// </summary>
+		/// <summary>
+		/// Initializes a new instance of the <see cref="UsingJSON"/> class.
+		/// </summary>
+		public UsingJSON()
+        {			
 			InitializeComponent();
         }
 
@@ -42,8 +42,8 @@ namespace ComboBoxBindingSample
 		/// <param name="e">The event data.</param>
 		private async void OnLoadClicked(object sender, EventArgs e)
 		{
-			if (BindingContext is JsonViewModel vm)
-				await vm.LoadAsync();
+			if (BindingContext is JsonViewModel view)
+				await view.LoadAsync();
 		}
 	}
 }

@@ -55,8 +55,8 @@ namespace ComboBoxBindingSample.ViewModel
 			var data = JsonSerializer.Deserialize<List<Country>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) ?? new();
 
 			Countries.Clear();
-			foreach (var c in data)
-				Countries.Add(c);
+			foreach (var item in data)
+				Countries.Add(item);
 		}
 	}
 
@@ -84,7 +84,6 @@ namespace ComboBoxBindingSample.ViewModel
 			using var req = new HttpRequestMessage(HttpMethod.Get, BaseUrl);
 			using var resp = await http.SendAsync(req, HttpCompletionOption.ResponseHeadersRead, ct);
 
-			// Ensure a 2xx response
 			resp.EnsureSuccessStatusCode();
 
 			// Read JSON and deserialize with case-insensitive property matching
@@ -99,12 +98,12 @@ namespace ComboBoxBindingSample.ViewModel
 			}
 
 			// Add only valid items, ordering by Name (safe default if null)
-			foreach (var u in data
-				.Where(u => u is not null)
-				.OrderBy(u => u.Name ?? string.Empty))
+			foreach (var item in data
+				.Where(item => item is not null)
+				.OrderBy(item => item.Name ?? string.Empty))
 			{
-				u.Name ??= string.Empty; // avoid null in bindings
-				Users.Add(u);
+				item.Name ??= string.Empty; // avoid null in bindings
+				Users.Add(item);
 			}
 			
 		}

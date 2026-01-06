@@ -32,8 +32,8 @@ namespace ComboBoxBindingSample
 		/// <param name="e">The event data.</param>
 		private async void OnLoadClicked(object sender, EventArgs e)
 		{
-			if (BindingContext is RestViewModel vm)
-				await vm.LoadAsync();
+			if (BindingContext is RestViewModel view)
+				await view.LoadAsync();
 		}
 
 		/// <summary>
@@ -43,11 +43,11 @@ namespace ComboBoxBindingSample
 		/// <param name="e">The event data.</param>
 		private async void OnCreateClicked(object sender, EventArgs e)
         {
-			if (BindingContext is RestViewModel vm)
+			if (BindingContext is RestViewModel view)
 			{
 				var name = NameEntry?.Text?.Trim();
 				if (!string.IsNullOrWhiteSpace(name))
-					await vm.CreateAsync(name);
+					await view.CreateAsync(name);
 			}
 		}
 	}
